@@ -16,7 +16,7 @@ export default function Index() {
       <FlatList  
        data={pokemons}
       style={styles.cards}
-      keyExtractor={pokemon} => pokemon.Numero.toString()}
+      keyExtractor={(pokemon) => pokemon.Numero.toString()}
       renderItem={ renderPokemon }
       initialNumToRender={10}
       maxTORenderPerBatch={10}
