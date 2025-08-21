@@ -28,12 +28,12 @@ export const styles = StyleSheet.create({
     imageContainer: {
         flex: 0.3,
         justifyContent: 'center',
-        alignItems: 5
+        alignItems: 'center'
     },
     imagem: {
         width: 140,
         height: 140,
-        right: 14,
+        right: 10,
         position: 'absolute',
         top: -20
     },
